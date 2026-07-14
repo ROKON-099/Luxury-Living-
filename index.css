@@ -426,3 +426,171 @@ body{
         font-size: 14px;
     }
 }
+/*=========================
+    Service Section
+=========================*/
+
+.service-section{
+    padding:80px 0;
+    background:#F8F9FA;
+}
+
+.service-subtitle{
+    font-size:12px;
+    font-weight:400;
+    text-transform:uppercase;
+    letter-spacing:2px;
+    margin-bottom:15px;
+    color:#251d58;
+}
+
+.service-title{
+    max-width:600px;
+    margin:auto;
+    font-size:24px;
+    font-weight:700;
+    line-height:1.6;
+    color:#251d58;
+}
+
+/*=========================
+      Card
+=========================*/
+
+.service-card{
+    padding:40px 25px;
+    border-radius:15px;
+    transition:.3s;
+    height:100%;
+   
+}
+
+.service-card:hover{
+    transform:translateY(-8px);
+}
+
+.active-card{
+    box-shadow:0 8px 20px rgba(0,0,0,.06);
+    
+}
+
+.service-icon{
+    width:70px;
+    height:70px;
+    color:#fff;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:0 auto 20px;
+    font-size:30px;
+}
+
+
+.service-card h4{
+    font-size:16px;
+    font-weight:600;
+    margin-bottom:10px;
+    color:#251d58;
+
+}
+
+.service-card h3{
+    font-size:34px;
+    font-weight:700;
+    margin-bottom:15px;
+}
+
+
+
+.service-card p{
+    font-size:15px;
+    color:#666;
+    line-height:1.8;
+}
+
+
+
+/*=========================
+      Button
+=========================*/
+
+
+
+
+/*=========================
+      Responsive
+=========================*/
+
+@media (max-width:991px){
+
+    .service-section{
+        padding:60px 0;
+    }
+
+    .service-title{
+        font-size:22px;
+    }
+
+    .service-card{
+        padding:35px 20px;
+    }
+}
+
+@media (max-width:767px){
+
+    .service-title{
+        font-size:20px;
+    }
+
+    .service-card{
+        text-align:center;
+    }
+
+    .service-card h4{
+        font-size:20px;
+    }
+
+    .service-card h3{
+        font-size:30px;
+    }
+
+    .explore-btn{
+        width:100%;
+        max-width:250px;
+    }
+}
+
+@media (max-width:576px){
+
+    .service-section{
+        padding:50px 0;
+    }
+
+    .service-title{
+        font-size:18px;
+        line-height:1.5;
+    }
+
+    .service-card{
+        padding:30px 18px;
+    }
+
+    .service-icon{
+        width:60px;
+        height:60px;
+        font-size:24px;
+    }
+
+    .service-card h4{
+        font-size:18px;
+    }
+
+    .service-card h3{
+        font-size:26px;
+    }
+
+    .service-card p{
+        font-size:14px;
+    }
+}
