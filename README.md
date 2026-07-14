@@ -1,7 +1,14 @@
 ![banner](./images/screenshot.png)
 
 
-#Luxury
+#Luxury Living 
+
+#Features
+
+Responsive Design
+Hero Section
+Product Cards
+Contact Form 
 
 
 
