@@ -594,3 +594,263 @@ body{
         font-size:14px;
     }
 }
+/*=========================
+    Testimonial Section
+=========================*/
+
+.testimonial-section{
+    padding:80px 0;
+    background-color:f6f6f6;
+}
+
+.testimonial-title{
+    font-size:38px;
+    font-weight:700;
+    color:#222;
+}
+
+/*=========================
+      Card
+=========================*/
+
+.testimonial-card{
+    background:#fff;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+    transition:.3s;
+    height:100%;
+}
+
+.testimonial-card:hover{
+    transform:translateY(-8px);
+}
+
+/* Client */
+
+.client-info{
+    margin-bottom:20px;
+}
+
+.client-info img{
+    width:70px;
+    height:70px;
+    border-radius:50%;
+    object-fit:cover;
+   
+}
+
+.client-info h5{
+    margin:0;
+    font-size:20px;
+    font-weight:600;
+}
+
+.client-info span{
+    font-size:14px;
+    color:#777;
+}
+
+/* Description */
+
+.testimonial-text{
+    color:#666;
+    font-size:15px;
+    line-height:1.8;
+    margin-bottom:20px;
+}
+
+/* Stars */
+
+.stars{
+    color:#FFC107;
+    font-size:18px;
+}
+
+.stars i{
+    margin-right:3px;
+}
+
+/*=========================
+      Responsive
+=========================*/
+
+@media(max-width:991px){
+
+    .testimonial-section{
+        padding:60px 0;
+    }
+
+    .testimonial-title{
+        font-size:32px;
+    }
+}
+
+@media(max-width:767px){
+
+    .testimonial-title{
+        font-size:28px;
+    }
+
+    .testimonial-card{
+        padding:25px;
+    }
+
+    .client-info img{
+        width:60px;
+        height:60px;
+    }
+
+    .client-info h5{
+        font-size:18px;
+    }
+}
+
+@media(max-width:576px){
+
+    .testimonial-section{
+        padding:50px 0;
+    }
+
+    .testimonial-title{
+        font-size:26px;
+    }
+
+    .testimonial-card{
+        padding:20px;
+    }
+
+    .client-info{
+        align-items:center;
+    }
+
+    .client-info img{
+        width:55px;
+        height:55px;
+    }
+
+    .testimonial-text{
+        font-size:14px;
+    }
+
+    .stars{
+        font-size:16px;
+    }
+}
+/*=========================
+    Contact Section
+=========================*/
+
+.contact-section{
+    padding:80px 0;
+    
+}
+
+.contact-subtitle{
+    font-size:16px;
+    font-weight:400;
+    color:#000;
+    margin-bottom:12px;
+}
+
+.contact-title{
+    font-size:32px;
+    font-weight:700;
+    color:#222;
+    line-height:1.6;
+    margin-bottom:10px;
+}
+
+/*=========================
+      Form
+=========================*/
+
+.custom-input,
+.custom-textarea{
+    border-radius:10px;
+    padding:15px 18px;
+    font-size:16px;
+     background-color: #f1f3f6 !important;
+   
+}
+
+.custom-input{
+    height:55px;
+    background-color:#f1f3f6;
+    
+     
+
+}
+
+.custom-input:focus,
+.custom-textarea:focus{
+    border-color:#CAA892;
+    box-shadow:0 0 0 .2rem rgba(202,168,146,.25);
+}
+
+.custom-textarea{
+    resize:none;
+}
+
+/*=========================
+      Button
+=========================*/
+
+
+
+/*=========================
+      Responsive
+=========================*/
+
+@media (max-width:991px){
+
+    .contact-section{
+        padding:60px 0;
+    }
+
+    .contact-title{
+        font-size:22px;
+    }
+}
+
+@media (max-width:767px){
+
+    .contact-title{
+        font-size:20px;
+        line-height:1.5;
+    }
+
+    .custom-input{
+        height:52px;
+    }
+
+    .send-btn{
+        width:100%;
+        max-width:260px;
+    }
+}
+
+@media (max-width:576px){
+
+    .contact-section{
+        padding:50px 0;
+    }
+
+    .contact-subtitle{
+        font-size:15px;
+    }
+
+    .contact-title{
+        font-size:18px;
+    }
+
+    .custom-input,
+    .custom-textarea{
+        font-size:15px;
+        padding:14px;
+    }
+
+    .send-btn{
+        width:100%;
+    }
+}
